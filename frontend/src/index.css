@@ -107,14 +107,11 @@ p {
 .contact {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
     width: 100%;
 }
 
 .contact a {
     margin: 10px;
-    /* height: 30px;
-    width: 30px; */
 }
 
 .email {
@@ -143,8 +140,8 @@ p {
 .copyright {
     color: #FFFFFF;
     font-size: 14px;
-    margin: 30px auto;
-    text-align: center;
+    margin: 30px 10px;
+    /* text-align: center; */
     width: 235px;
 }
 
@@ -159,8 +156,21 @@ p {
         background-image: url("https://imgur.com/IpPP4Uj.png");
     }
 
+    h1 {
+        font-size: 40px;
+    }
+
     .logo img{
         width: 150px;
         height: 60px;
+    }
+
+    .contact {
+        justify-content: center;
+    }
+
+    .copyright {
+        margin: 30px auto;
+        text-align: center;
     }
 }
