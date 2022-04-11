@@ -1,52 +1,70 @@
-# Aus-Mon Website Project
+# Getting Started with Create React App
 
-## Introduction
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The emerging Mongolian Community is a new diverse and enriching cultural addition to the Bayside Community. As the Mongolian Community is new to Bayside, language and cultural differences have been a strong barrier for the Mongolian people to access their community to socialise, engage, and celebrate their culture, diversity, and language that they can share inclusively with the Bayside Community. We believe that providing a website that offers dual language access that delivers information for and about both the Mongolian and Australian Communities helps the community overcome barriers. Aus-Mon CSDI will develop the website under the “Mongolian Website Project” financed by “Doing It Differently” Bayside Grants Projects from 1 September 2021 to 03 November 2021.
+## Available Scripts
 
-## Objective
+In the project directory, you can run:
 
-This project aims to develop a dual language website that will ensure the Mongolian Community has access to health, mental health, lifestyle, events, social services, other professional services and opportunities.
+### `npm start`
 
-It will create a space for the Mongolian Community to access Australian communities' support, resources, and opportunities. The website will be a reliable, primary information source for the Mongolian Community to access council, state and federal information, services, support and legislation.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Consumers
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-We intend to strengthen and connect the Mongolian Community with Australian Communities by providing a dual-language website. And primary consumers will be Mongolians living in Australia and planning to come to Australia soon. In addition, Australian organisations and communities can use the website to communicate Mongolian community and distribute information among Mongolians in Australia.
+### `npm test`
 
-## Tech Stack
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The goal is to use full-stack Javascript that makes it easier for beginners.
+### `npm run build`
 
-- Front-End - [React](https://reactjs.org/) using create-react-app framework
-- Backend (CMS) - [Keystone.js](https://keystonejs.com/) or equivalient - but initially [markdowns to HTML pages](https://github.com/showdownjs/showdown) could work.
-- Hosting - AWS cloud services. e.g. S3, EC2 and RDS etc.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Getting Started
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Learn react - https://www.taniarascia.com/getting-started-with-react/
-- Install Node.js - https://nodejs.dev/learn/how-to-install-nodejs
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- For [Frontend](ausmon-frontend/README.md) specific instructions please refer ausmon-fronted/README.md
+### `npm run eject`
 
-### Initialise
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```/bin/sh
-make init
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Start
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```/bin/sh
-make start
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-and you should see running application on http://localhost:3000/
+## Learn More
 
-Good luck 😎
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Contribution
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-When contributing to this repository, first look at the issues section to see if an issue has been created for the change you wish to make. If not, please create an issue to discuss with the community before you spending your time.
+### Code Splitting
 
-Please note we have a code of conduct. And please follow it in all your interactions with the project.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
